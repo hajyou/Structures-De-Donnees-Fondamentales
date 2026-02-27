@@ -32,7 +32,6 @@ List* AddDataLast(List* old, void* data){
     }
     *p_old = createListWithOneElement(data);
     if(*p_old){
-        //after modifications
         return old;
     }
     else{
